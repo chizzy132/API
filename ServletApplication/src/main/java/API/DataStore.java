@@ -1,6 +1,5 @@
 package API;
 
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -38,10 +37,8 @@ public class DataStore {
 		return personMap.get(name);
 	}
 
-
 	public void putPerson(Person person) {
-		personMap.put(person.getFirstname(), person);
+		personMap.put(person.getFirstName(), person);
 	}
-
 	
 }
